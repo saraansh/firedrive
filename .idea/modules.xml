@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/box-content-sample/box-content-sample.iml" filepath="$PROJECT_DIR$/box-content-sample/box-content-sample.iml" />
+      <module fileurl="file://D:\Android Projects\firedrive\box-content-sample\box-content-sample.iml" filepath="D:\Android Projects\firedrive\box-content-sample\box-content-sample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/box-content-sdk/box-content-sdk.iml" filepath="$PROJECT_DIR$/box-content-sdk/box-content-sdk.iml" />
+      <module fileurl="file://D:\Android Projects\firedrive\box-content-sdk\box-content-sdk.iml" filepath="D:\Android Projects\firedrive\box-content-sdk\box-content-sdk.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dBRoulette/dBRoulette.iml" filepath="$PROJECT_DIR$/dBRoulette/dBRoulette.iml" />
+      <module fileurl="file://D:\Android Projects\firedrive\dBRoulette\dBRoulette.iml" filepath="D:\Android Projects\firedrive\dBRoulette\dBRoulette.iml" />
+      <module fileurl="file://$PROJECT_DIR$/firedrive.iml" filepath="$PROJECT_DIR$/firedrive.iml" />
+    </modules>
+  </component>
+</project>

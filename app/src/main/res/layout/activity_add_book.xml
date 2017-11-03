@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.saraansh.firedrive.AddBookActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e1f5fe">
+
+
+        <ImageButton
+            android:id="@+id/add_book_fill"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="Fill Details Normally"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/add_book_smart"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/addbookfill" />
+
+        <ImageButton
+            android:id="@+id/add_book_smart"
+            android:layout_width="0dp"
+            android:layout_height="255dp"
+            android:adjustViewBounds="false"
+            android:contentDescription="Fill Details Smartly"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/add_book_fill"
+            app:srcCompat="@drawable/addbooksmart" />
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>
