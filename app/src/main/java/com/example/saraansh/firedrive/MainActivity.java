@@ -6,6 +6,7 @@ import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Display;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -76,7 +77,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if(firebaseAuth.getCurrentUser()!=null){
-                    Intent intent = new Intent (MainActivity.this,signout.class);
+                    //Intent intent = new Intent (MainActivity.this,signout.class);
+                    Intent intent = new Intent(MainActivity.this, TrainingActivity.class);
                     startActivity(intent);
                 }
             }
